@@ -1,0 +1,32 @@
+.playlist-container {
+    border: 2px solid black;
+    height: 540px;
+    overflow-x: auto;
+}
+
+.playerlist {
+    display: flex;
+    flex-direction: column;
+    .player {
+       margin: 10px;
+       border: 2px solid black;
+       font-size: 28px;
+       padding: 5px;
+       display: flex;
+       justify-content: space-between;
+    }
+
+    .close {
+        cursor: pointer;
+        
+        &:hover {
+            background: white;
+        }
+       
+    }
+}
+
+
+h3 {
+    text-align: center;
+}
